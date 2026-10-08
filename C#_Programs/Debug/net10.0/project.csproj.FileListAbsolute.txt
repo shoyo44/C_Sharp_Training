@@ -1,0 +1,14 @@
+D:\dotnet\project\bin\Debug\net10.0\project.exe
+D:\dotnet\project\bin\Debug\net10.0\project.deps.json
+D:\dotnet\project\bin\Debug\net10.0\project.runtimeconfig.json
+D:\dotnet\project\bin\Debug\net10.0\project.dll
+D:\dotnet\project\bin\Debug\net10.0\project.pdb
+D:\dotnet\project\obj\Debug\net10.0\project.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\project\obj\Debug\net10.0\project.AssemblyInfoInputs.cache
+D:\dotnet\project\obj\Debug\net10.0\project.AssemblyInfo.cs
+D:\dotnet\project\obj\Debug\net10.0\project.csproj.CoreCompileInputs.cache
+D:\dotnet\project\obj\Debug\net10.0\project.dll
+D:\dotnet\project\obj\Debug\net10.0\refint\project.dll
+D:\dotnet\project\obj\Debug\net10.0\project.pdb
+D:\dotnet\project\obj\Debug\net10.0\project.genruntimeconfig.cache
+D:\dotnet\project\obj\Debug\net10.0\ref\project.dll
