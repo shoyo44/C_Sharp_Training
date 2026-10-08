@@ -1,5 +1,5 @@
 using System;
-public class Hello
+public class GST
 {
     public static void Main(String[] args)
     {
