@@ -1,0 +1,2 @@
+1)ATM pin number ,balance ,cjoice deposit or withdrawal using gpay,netbanking,amount shaould be 
+lesser than withdrawal
