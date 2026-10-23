@@ -1,0 +1,37 @@
+Power of a Number
+Method: FindPower(double baseNum, double exponent) → use Math.Pow(baseNum, exponent)
+Absolute Value Finder
+Method: GetAbsolute(int num) → use Math.Abs(num)
+Find Maximum and Minimum
+Method: FindMaxMin(int a, int b) → use Math.Max(a,b) and Math.Min(a,b)
+Round a Number
+Method: RoundValue(double num) → use Math.Round(num)
+Calculate Compound Interest
+Method: CalculateCompoundInterest(double principal, double rate, int time)
+Formula: principal * Math.Pow((1 + rate/100), time) - principal
+Calculate BMI (Body Mass Index)
+Method: CalculateBMI(double weight, double height)
+Formula: weight / Math.Pow(height, 2)
+Find Distance Between Two Points
+Method: GetDistance(double x1, double y1, double x2, double y2)
+Formula: Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2))
+Temperature Conversion with Rounding
+Method: ConvertTemp(double celsius) → (celsius * 9/5) + 32
+Round result using Math.Round()
+Random Circle Area Generator
+Generate random radius using Random, calculate area using Math.PI and Math.Pow()
+Solve Quadratic Equation Roots
+Method: FindQuadraticRoots(double a, double b, double c)
+Formula:
+root1, root2=−b±b2−4ac2a\text{root1, root2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}root1, root2=2a−b±b2−4ac​​ 
+→ use Math.Sqrt() and handle imaginary case.
+Find Logarithm (Base 10 and Base e)
+Method: FindLogs(double num) → use Math.Log10() and Math.Log()
+Trigonometric Calculator
+Method: ShowTrigValues(double angle)
+Use: Math.Sin(), Math.Cos(), Math.Tan() (angle in radians)
+Rounding Techniques Comparison
+Show difference between Math.Floor(), Math.Ceiling(), and Math.Round() for same number.
+Find Exponential Growth
+Method: PopulationGrowth(double initial, double rate, int years)
+Formula: initial * Math.Exp(rate * years)

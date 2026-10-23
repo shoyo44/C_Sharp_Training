@@ -1,0 +1,15 @@
+Replace Every Digit with *
+Input: abc123xyz45
+Output: abc**xyz*
+
+Check Whether Two Strings Are Anagrams
+Input: listen, silent
+Output: Anagrams
+
+Remove vowels from a string
+
+Count occurrences of a substring
+
+ Find the longest word in a string
+
+Automorphic Number 25 → , ends in 25
