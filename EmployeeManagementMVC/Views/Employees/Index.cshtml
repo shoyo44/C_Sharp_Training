@@ -1,0 +1,49 @@
+@model IEnumerable<Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<div class="page-heading">
+    <div>
+        <h1>Employees</h1>
+        <p class="subtitle">Browse the employee directory.</p>
+    </div>
+    <a class="button" asp-action="Create">Add employee</a>
+</div>
+
+<section class="surface" aria-label="Employee list">
+    @if (Model.Any())
+    {
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var employee in Model)
+                    {
+                        <tr>
+                            <td>@employee.Name</td>
+                            <td>@employee.Email</td>
+                            <td>@(string.IsNullOrWhiteSpace(employee.Phone) ? "-" : employee.Phone)</td>
+                            <td>@employee.Salary.ToString("C")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="empty-state">
+            <strong>No employees yet</strong>
+            <span>Add the first employee to populate this directory.</span>
+        </div>
+    }
+</section>

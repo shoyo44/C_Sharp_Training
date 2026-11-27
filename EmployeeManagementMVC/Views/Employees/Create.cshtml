@@ -1,0 +1,45 @@
+@model AddEmployeeDto
+
+@{
+    ViewData["Title"] = "Add Employee";
+}
+
+<div class="page-heading">
+    <div>
+        <h1>Add employee</h1>
+        <p class="subtitle">Enter the employee's contact and salary details.</p>
+    </div>
+</div>
+
+<form asp-action="Create" method="post" class="surface form-surface">
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <div class="field">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" autocomplete="name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+
+    <div class="field">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" type="email" autocomplete="email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+
+    <div class="field">
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" type="tel" autocomplete="tel" />
+        <span asp-validation-for="Phone"></span>
+    </div>
+
+    <div class="field">
+        <label asp-for="Salary"></label>
+        <input asp-for="Salary" type="number" min="0" step="0.01" />
+        <span asp-validation-for="Salary"></span>
+    </div>
+
+    <div class="form-actions">
+        <button class="button" type="submit">Save employee</button>
+        <a class="button button-secondary" asp-action="Index">Cancel</a>
+    </div>
+</form>
